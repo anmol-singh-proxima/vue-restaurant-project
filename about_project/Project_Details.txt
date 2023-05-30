@@ -1,0 +1,48 @@
+
+##. Install node on system
+- Check for node and npm
+$ npm --version
+$ node --version
+
+##. Install Vue CLI
+$ npm install -g @vue/cli
+
+##. Create Project
+$ vue create restaurant-project
+
+##. To run project
+$ npm run serve
+- Go to localhost:8080
+
+##. Install JSON Server for API
+$ npm install -g json-server
+- Check installation
+$ json-server
+
+##. Create a db.json file with some data
+- Creata a folder named 'api-db' outside Project directory
+- Create a file named 'db.json'
+
+##. Start JSON Server
+- Go inside folder 'api-db' in terminal
+$ json-server --watch db.json
+
+##. Install Axios for API call
+$ npm install axios
+
+##. Install Router package
+$ npm install vue-router@next
+- Here, @next is for latest version
+
+##. Create a separate Router file 'router.js' in 'src' folder
+- Create all the routes and a router instance
+- Add the routes to router instance and export it
+
+
+Note:
+#. Add below code in file 'vue.config.js' for 'multi-word-component' problem
+``` lintOnSave: true ```
+#. Use router-view in 'App.vue' for enabling routes in 'router.js'
+#. Use router-link (in place of <a></a>) to redirect to a link
+#. To redirect to a particular route
+``` this.$router.push({ name: '[route_name]' }) ```

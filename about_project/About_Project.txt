@@ -1,0 +1,23 @@
+============================
+==== Restaurant-Project ====
+
+Project:
+* This project is about the restaurant details where a user can signup and login to website and perform CRUD operations on restaurant details
+* Project is hosted on localhost:8080
+* Libraries Used: npm, vue, axios, json-server
+
+Database:
+* Data is hosted on json-server on localhost:3000
+* All the data is stored in '{root_folder}/api/db.json' file
+* Data is Read and manipulated (Add, Update, Delete) using API calls to json-server
+
+Data:
+* Users: id, name, email, password
+* Restaurants: id, name, contact, address, pincode
+
+Website:
+* A user first has to signup with neccessary details
+* Then user has to login into the webpage using email and password
+* Then user will see a home page containing the restaurant details
+* User can add, delete, update or read restaurant details
+* User can logout from the website

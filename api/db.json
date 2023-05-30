@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "name": "anmol",
+      "email": "anmol@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "vannie",
+      "email": "dogra@gmail",
+      "password": "vannie123",
+      "id": 2
+    },
+    {
+      "name": "vannie",
+      "email": "dogra@gmail.com",
+      "password": "vannie123",
+      "id": 3
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Dominos",
+      "contact": "011-6744-9087",
+      "address": "Sector 8, Pritam Vihar, New Delhi",
+      "pincode": 110025,
+      "id": 1
+    },
+    {
+      "name": "Burger King",
+      "contact": "011-4567-9876",
+      "address": "Sector 3, Rohini, New Delhi",
+      "pincode": 110020,
+      "id": 2
+    },
+    {
+      "name": "KFC",
+      "contact": "011-9876-2748",
+      "address": "Sector 23, Rangpuri, New Delhi",
+      "pincode": 110071,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Punjabi Dhaba",
+      "contact": "+91-9845632872",
+      "address": "Sector 34, Pritam Vihar, New Delhi",
+      "pincode": "110105"
+    },
+    {
+      "name": "Barbeque Nation",
+      "contact": "011-8793-9833",
+      "address": "Gali No. 10, Mahipalpur, New Delhi",
+      "pincode": "110054",
+      "id": 5
+    }
+  ]
+}
