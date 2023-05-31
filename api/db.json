@@ -5,18 +5,6 @@
       "email": "anmol@gmail.com",
       "password": "abc@123",
       "id": 1
-    },
-    {
-      "name": "vannie",
-      "email": "dogra@gmail",
-      "password": "vannie123",
-      "id": 2
-    },
-    {
-      "name": "vannie",
-      "email": "dogra@gmail.com",
-      "password": "vannie123",
-      "id": 3
     }
   ],
   "restaurants": [
